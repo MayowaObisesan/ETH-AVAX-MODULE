@@ -94,7 +94,7 @@ export default function HomePage() {
         fetchName();
         getAge();
       }
-    }, []);
+    }, [atm]);
 
     // Check to see if user has Metamask
     if (!ethWallet) {
